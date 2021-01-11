@@ -1,0 +1,877 @@
+/* Fonts */
+@font-face {
+	font-family: 'Monoton';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/monoton/v10/5h1aiZUrOngCibe4TkHLQg.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+		U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/heebo/v9/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EiS2sd0mm_00.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* latin */
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/heebo/v9/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EiS2sdUmm.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/heebo/v9/NGSpv5_NC0k9P_v6ZUCbLRAHxK1ECSysd0mm_00.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* latin */
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/heebo/v9/NGSpv5_NC0k9P_v6ZUCbLRAHxK1ECSysdUmm.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/heebo/v9/NGSpv5_NC0k9P_v6ZUCbLRAHxK1E1yysd0mm_00.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* latin */
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/heebo/v9/NGSpv5_NC0k9P_v6ZUCbLRAHxK1E1yysdUmm.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/heebo/v9/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EiSysd0mm_00.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* latin */
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/heebo/v9/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EiSysdUmm.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/heebo/v9/NGSpv5_NC0k9P_v6ZUCbLRAHxK1Euyysd0mm_00.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* latin */
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/heebo/v9/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EuyysdUmm.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/heebo/v9/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EVyusd0mm_00.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* latin */
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/heebo/v9/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EVyusdUmm.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/heebo/v9/NGSpv5_NC0k9P_v6ZUCbLRAHxK1Ebiusd0mm_00.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* latin */
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/heebo/v9/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EbiusdUmm.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: 'Yatra One';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/yatraone/v7/C8ch4copsHzj8p7NaF0BxVmAXRA.woff2) format('woff2');
+	unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+	font-family: 'Yatra One';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/yatraone/v7/C8ch4copsHzj8p7NaF0BylmAXRA.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+	font-family: 'Yatra One';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/yatraone/v7/C8ch4copsHzj8p7NaF0BxFmA.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+		U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* Universal styles */
+li {
+	font-family: "Heebo";
+}
+h1 {
+	font-family: "Yatra One", sans-serif;
+	font-size: inherit;
+}
+h5 {
+	font-family: sans-serif;
+	font-size: 12px;
+}
+.color-guide-container,
+.typography-container,
+.buttons-container,
+.messages-container {
+	margin: 50px auto;
+}
+.color-guide-container h1,
+.typography-container h1,
+.buttons-container h1,
+.messages-container h1 {
+	font-size: 26px;
+}
+/* Navbar */
+
+.navigation {
+	display: block;
+	background-color: rgba(252, 252, 252, 0.856);
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	width: 100%;
+	margin: 0px 0px 80px 0px;
+}
+
+.logo {
+	font-family: 'Monoton', sans-serif;
+	font-size: 50px;
+}
+#navigationlist li {
+	display: inline-flex;
+	padding: 0px 10px;
+}
+#navigationlist {
+	position: absolute;
+	right: 16px;
+	top: 0;
+}
+.social-media {
+	height: 16px;
+	width: 16px;
+}
+.nav-social img {
+	height: 100%;
+	width: 100%;
+}
+
+#navigationlist a {
+	text-decoration: none;
+}
+/* Banner Section */
+.hero_banner {
+	display: block;
+	position: relative;
+	top: 80px;
+	background-color: #d6d6d6;
+	border: 20px transparent #d6d6d6;
+	margin: 0px 0px 30px 0px;
+}
+.image-container img {
+	width: 90%;
+	padding: 0px 0px 0px 60px;
+}
+.hero_banner_content {
+	position: relative;
+	text-align: center;
+	font-size: 36px;
+	color: rgb(54, 51, 245);
+	width: fit-content;
+}
+.hero_banner_content h1 {
+	margin: 0px auto;
+}
+
+/* Hub content */
+.hubcontent {
+	position: relative;
+	top: 60px;
+	margin: 0px auto;
+	width: 50%;
+}
+
+/* Color Division */
+
+/* Primary Colors */
+.primary-colors {
+	display: flex;
+}
+/* medium royal blue */
+#medium-royal-blue-colorblock {
+	border: 1px solid #3b6fd9;
+	border-radius: 5px;
+	height: 50px;
+	width: 50px;
+	background-color: #3b6fd9;
+	margin-left: 25px;
+}
+.color-content {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 10px;
+	color: gray;
+}
+/* pale-blue */
+.pale-blue {
+	margin-left: 30px;
+}
+#pale-blue-colorblock {
+	display: flex;
+	border: 1px solid #f2f3f6;
+	border-radius: 5px;
+	height: 50px;
+	width: 50px;
+	background-color: rgb(242, 243, 246);
+	margin-left: 5px;
+}
+
+/* Pale gray */
+.pale-gray {
+	margin-left: 50px;
+}
+#pale-gray-colorblock {
+	border: 1px solid #585f73;
+	border-radius: 5px;
+	height: 50px;
+	width: 50px;
+	background-color: #585f73;
+	margin-left: 5px;
+}
+/* secondary colors */
+.secondary-colors {
+	display: flex;
+}
+/* light gray */
+#light-gray-colorblock {
+	display: flex;
+	border: 1px solid #d6d6d6;
+	border-radius: 5px;
+	height: 50px;
+	width: 50px;
+	background-color: #d6d6d6;
+	margin-left: 5px;
+}
+/* pale-royal-blue */
+.pale-royal-blue {
+	margin-left: 30px;
+}
+#pale-royal-blue-colorblock {
+	display: flex;
+	border: 1px solid #dfe9fc;
+	border-radius: 5px;
+	height: 50px;
+	width: 50px;
+	background-color: #dfe9fc;
+	margin-left: 5px;
+}
+/* cyan */
+.cyan {
+	margin-left: 30px;
+}
+#cyan-colorblock {
+	display: flex;
+	border: 1px solid #02c8c1;
+	border-radius: 5px;
+	height: 50px;
+	width: 50px;
+	background-color: #02c8c1;
+	margin-left: 5px;
+}
+/* orange */
+.orange {
+	margin-left: 30px;
+}
+#orange-colorblock {
+	display: flex;
+	border: 1px solid #ffbb00;
+	border-radius: 5px;
+	height: 50px;
+	width: 50px;
+	background-color: #ffbb00;
+	margin-left: 5px;
+}
+/* medium-red */
+.medium-red {
+	margin-left: 30px;
+}
+#medium-red-colorblock {
+	display: flex;
+	border: 1px solid #ff6767;
+	border-radius: 5px;
+	height: 50px;
+	width: 50px;
+	background-color: #ff6767;
+	margin-left: 5px;
+}
+
+/*white-solid */
+.white-solid {
+	margin-left: 30px;
+}
+#white-solid-colorblock {
+	display: flex;
+	border: 1px solid #f9f9ff;
+	border-radius: 5px;
+	height: 50px;
+	width: 50px;
+	background-color: #f9f9f9;
+	margin-left: 5px;
+}
+
+/* Topography */
+.Typography-header-content-container {
+	display: flex;
+}
+.h1-container h1 {
+	text-align: left;
+	font-family: "Heebo Bold";
+	font-size: 32px;
+	width: 100%;
+	margin: 30px 12px;
+}
+.h2-container h2 {
+	text-align: left;
+	font-family: "Heebo Medium";
+	font-size: 28px;
+	margin: 30px 0px 20px 50px;
+}
+
+.Typography-body-content-container {
+	display: flex;
+}
+
+.body-1 {
+	margin: 30px 12px;
+}
+.body-2, .body-thin {
+	margin: 30px 30px;
+}
+.body-1 p{
+	text-align: left;
+	font-family: "Heebo";
+	font-size: 16px;
+	font-weight: 400;
+}
+.body-2 p{
+	text-align: left;
+	font-family: "Heebo";
+	font-size: 16px;
+	font-weight: 500;
+}
+.body-thin p{
+	text-align: left;
+	font-family: "Heebo";
+	font-size: 12px;
+	font-weight: 200;
+}
+
+/* Buttons */
+.Button-style-container{
+	display: flex;
+	margin: 60px 0px;
+}
+.button{
+	align-content: center;
+	display: block;
+	border-radius: 1rem;
+	background-color: white;
+	box-shadow:5px 6px 6px 6px rgb(223, 221, 221);
+	padding: 20px;
+	
+}
+.button img{
+	height: 120px;
+	width: 160px;
+}
+.button-functionality{
+	margin-left: 200px;
+}
+.default-text,
+.disabled-text{
+	display: flex;
+	margin: 20px 0px;
+}
+
+#button-box
+{
+	margin-left: 100px;
+	padding: 15px;
+	
+}
+ #cancel-button-box {
+	margin-left: 30px;
+	padding: 15px;
+	
+}
+#button-box a{
+	background-color: #3B6FD9 ;
+	padding: 10px 30px;
+	border-radius: 25px;
+	text-align: center;
+	font-family: "Heebo";
+	font-weight: 500;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	cursor:pointer;
+}
+#button-box a:hover{
+	background-color: cyan ;
+	padding: 10px 30px;
+	border-radius: 25px;
+	text-align: center;
+	font-family: "Heebo";
+	font-weight: 500;
+	font-size: 18px;
+	color: #585F73 ;
+	text-decoration: none;
+}
+#button-box a:active{
+	background-color: cyan ;
+	border:2px solid black;
+	padding: 10px 30px;
+	border-radius: 25px;
+	text-align: center;
+	font-family: "Heebo";
+	font-weight: 500;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+/* cancel button default */
+#cancel-button-box a{
+	background-color: #585F73  ;
+	padding: 10px 30px;
+	border-radius: 25px;
+	text-align: center;
+	font-family: "Heebo";
+	font-weight: 500;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	cursor:pointer;
+
+}
+#cancel-button-box a:hover{
+	background-color: #a0a0a0 ;
+	padding: 10px 30px;
+	border-radius: 25px;
+	text-align: center;
+	font-family: "Heebo";
+	font-weight: 500;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+#cancel-button-box a:active{
+	background-color: #a0a0a0 ;
+	border:2px solid black;
+	padding: 10px 30px;
+	border-radius: 25px;
+	text-align: center;
+	font-family: "Heebo";
+	font-weight: 500;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+/* click previous */
+#click-previous{
+	margin-left: 30px;
+}
+#click-previous a{
+	text-decoration: none;
+	border-radius: 50%;
+	display: block;
+	padding: 8px 16px;
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 26px;
+	color: rgb(39, 39, 39);
+	background-color:  #D6D6D6 ;
+	cursor: pointer;
+	 
+}
+
+#click-previous a:hover{
+	text-decoration: none;
+	border-radius: 50%;
+	display: block;
+	padding: 8px 16px;
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 26px;
+	color: rgb(39, 39, 39);
+	background-color:  #bdbdbd ;
+	cursor: pointer;
+	 
+}
+#click-previous a:active{
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 50%;
+	display: block;
+	padding: 8px 16px;
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 26px;
+	color: rgb(39, 39, 39);
+	background-color:  #bdbdbd ;
+	cursor: pointer;
+	 
+}
+
+#click-next{
+	margin-left: 15px;
+}
+#click-next a{
+	text-decoration: none;
+	border-radius: 50%;
+	display: block;
+	padding: 8px 16px;
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 26px;
+	color: rgb(255, 255, 255);
+	 background-color:  #3B6FD9 ;
+	 float: left;
+}
+#click-next a:hover{
+	text-decoration: none;
+	border-radius: 50%;
+	display: block;
+	padding: 8px 16px;
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 26px;
+	color: rgb(255, 255, 255);
+	background-color:  rgb(55, 95, 228) ;
+	
+}
+#click-next a:active{
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 50%;
+	display: block;
+	padding: 8px 16px;
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 26px;
+	color: rgb(255, 255, 255);
+	background-color:  rgb(55, 95, 228) ;
+	
+}
+
+
+/* disabled buttons */
+ 
+
+
+
+#button-box-disabled{
+	margin-left: 100px;
+	padding-top: 15px;
+
+}
+#button-box-disabled a{
+	background-color: #e2e2e2   ;
+	padding: 10px 30px;
+	border-radius: 25px;
+	text-align: center;
+	font-family: "Heebo";
+	font-weight: 500;
+	font-size: 18px;
+	color: #c7c6c6 ;
+	text-decoration: none;
+	cursor:crosshair;
+}
+/* #cancel-button-box-disabled */
+#cancel-button-box-disabled{
+	margin-left: 65px;
+	padding-top: 15px;
+
+}
+#cancel-button-box-disabled a{
+	background-color:  #e2e2e2    ;
+	padding: 10px 30px;
+	border-radius: 25px;
+	text-align: center;
+	font-family: "Heebo";
+	font-weight: 500;
+	font-size: 18px;
+	color: #c7c6c6;
+	text-decoration: none;
+	cursor:crosshair;
+
+}
+
+/* #clicks-disabled */
+#click-previous-disabled{
+	margin-left: 45px;
+}
+#click-previous-disabled a{
+	text-decoration: none;
+	border-radius: 50%;
+	display: block;
+	padding: 8px 16px;
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 26px;
+	color:   #c7c6c6  ;
+	background-color:  #e2e2e2 ;
+	cursor: crosshair;
+}
+#click-next-disabled{
+	margin-left: 15px;
+}
+#click-next-disabled a{
+	text-decoration: none;
+	border-radius: 50%;
+	display: block;
+	padding: 8px 16px;
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 26px;
+	color:   #c7c6c6  ;
+	background-color: #DFE9FC  ;
+	cursor: crosshair;
+}
+	
+/* Messages section */
+/* common */
+.messages-style-container,
+.pop-messages-style-container {
+	display: flex;
+}
+.messages-style-container h6,
+.pop-messages-style-container h6{
+	font-size: 18px;
+	font-family: sans-serif;
+}
+.error-container,
+.warning-container,
+
+.pop-error-container,
+.pop-warning-container
+{
+	margin: 0px 0px 0px 100px;
+}
+
+#symbol{
+	float: left;
+}
+.sucess-container #result{
+	background-color: rgba(104, 233, 201, 0.438);
+	width: 120%;
+	padding:0px 5px;
+	border-radius: 25px;
+	float: left;
+	border: 1px solid rgba(86, 190, 164, 0.8);
+}
+
+.sucess-container #result #symbol{
+	color: white;
+	border-radius: 50%;
+	background-color: #02C8C1;
+	font-family: "Heebo";
+	font-weight: 500;
+	font-size: 16px;
+	padding: 2px 8px;
+	margin-top: 5px;
+	margin-left: 3px;
+	margin-right: 5px;
+}
+.error-container #result{
+	background-color: rgba(238, 91, 91, 0.438);
+	width: 120%;
+	padding:0px 5px;
+	border-radius: 25px;
+	float: left;
+	border: 1px solid rgba(238, 91, 91, 0.6);
+}
+.error-container #result #symbol{
+	color: white;
+	border-radius: 50%;
+	background-color: rgb(238, 91, 91);
+	font-family: "Heebo";
+	font-weight: 500;
+	font-size: 16px;
+	padding: 2px 8px;
+	margin-top: 5px;
+	margin-left: 3px;
+	margin-right: 5px;
+}
+.warning-container #result{
+	background-color:rgba(255, 187, 0, 0.4) ;
+	
+	width: 120%;
+	padding:0px 5px;
+	border-radius: 25px;
+	float: left;
+	border: 1px solid rgba(255, 187, 0, 0.6) ;
+}
+#message p{
+	font-family: "Heebo", sans-serif;
+	font-weight: 200;
+	font-size: 12px;
+}
+.warning-container #result #symbol{
+	color: white;
+	border-radius: 50%;
+	background-color: rgb(255, 187, 0);
+	font-family: "Heebo";
+	font-weight: 500;
+	font-size: 16px;
+	padding: 2px 10px;
+	margin-top: 5px;
+	margin-left: 3px;
+	margin-right: 5px;
+
+}
+
+
+/* Pop-up messages */
+.pop-sucess-container #result-container,
+.pop-error-container #result-container,
+.pop-warning-container #result-container{
+	display: block;
+	height: 245px;
+	width: 300px;
+	background-color: #D6D6D6 ;
+	float: left;
+}
+
+.result{
+	display: block;
+	height: 150px;
+	width: 200px;
+	background-color: white;
+	margin: 50px auto;
+	border-radius: 15px;
+	
+	
+}
+.result #close-pop{
+	float: right;
+	padding-right: 10px;
+}
+.result #message{
+	font-family: "Heebo";
+	font-size: 16px;
+	font-weight: 400;
+	padding: 70px 20px;
+}
+.result #symbol_success{
+	color: white;
+	border-radius: 50%;
+	background-color: #02C8C1;
+	font-family: "Heebo";
+	font-weight: 500;
+	font-size: 26px;
+	padding: 4px 14px;
+	margin-top: 20px;
+	margin-left: 70px;
+	margin-right: 5px;
+	float: left;
+}
+
+.result #symbol_error{
+	color: white;
+	border-radius: 50%;
+	background-color: rgb(238, 91, 91);
+	font-family: "Heebo";
+	font-weight: 500;
+	font-size: 26px;
+	padding: 2px 10px;
+	margin-top: 20px;
+	margin-left: 70px;
+	margin-right: 5px;
+	float: left;
+}
+
+.result #symbol_warning{
+	color: white;
+	border-radius: 50%;
+	background-color: rgb(255, 187, 0);
+	font-family: "Heebo";
+	font-weight: 500;
+	font-size: 26px;
+	padding: 4px 14px;
+	margin-top: 20px;
+	margin-left: 70px;
+	margin-right: 5px;
+	float: left;
+}
+
+/* hygine */
+
+footer{
+	background-color: rgba(5, 5, 5, 0.644);
+	width: 100%;
+	position: relative;
+	top: 20px;
+	color: #e2e2e2;
+	text-align: center;
+}
